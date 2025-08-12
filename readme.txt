@@ -17,6 +17,7 @@ Instructions
 2. When you run it the first time, it will run initialize_media.php. This helps set up the admin user, and the Sqlite file.
 3. When you run it the second time, it will just run media.php. 
 4. Index.php decides to run media.php when initialize_media.php has been deleted (which will happen, after you run initialize_media.php).
+5. Default user is "admin" and default password is "admin123". Please make sure to change it.
 
 Features
 ========
@@ -54,5 +55,6 @@ Disclaimer
 Copyright
 =========
 All copyright is claimed by Kevin Koo Seng Kiat.
+
 
 
