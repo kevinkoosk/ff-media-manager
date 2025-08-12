@@ -13,9 +13,10 @@ A simple flat file system used to upload media. (Uses PHP and Sqlite)
 
 Instructions
 ============
-1. Upload the files to your server, at the domain or subdomain root. 
-2. When you run it the first time, run initialize_media.php. This helps set up the admin user, and the Sqlite file.
-3. When you run it the second time, just run media.php. 
+1. Upload the files to your server, at the domain or subdomain root. (Please, don't put it in a sub-directory.)
+2. When you run it the first time, it will run initialize_media.php. This helps set up the admin user, and the Sqlite file.
+3. When you run it the second time, it will just run media.php. 
+4. Index.php decides to run media.php when initialize_media.php has been deleted (which will happen, after you run initialize_media.php).
 
 Features
 ========
@@ -53,4 +54,5 @@ Disclaimer
 Copyright
 =========
 All copyright is claimed by Kevin Koo Seng Kiat.
+
 
